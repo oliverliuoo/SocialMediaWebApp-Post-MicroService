@@ -1,0 +1,664 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2022 19:29:47] "GET /health HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2022 19:29:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Nov/2022 19:30:12] "GET /post/s3url?object_name=oliver HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2022 14:23:26] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2022 14:23:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2022 14:23:31] "GET /health HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2022 14:23:41] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2022 14:33:23] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Nov/2022 14:33:23] "GET /post/s3url?object_name=0bb9a261-d649-4b70-ab0d-7fdb6c26bcd7 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 11:14:11] "GET /health HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 11:15:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 11:27:33] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 11:30:03] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 11:36:01] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 11:36:19] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 11:37:49] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 11:38:22] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 11:40:34] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 11:44:07] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 11:46:09] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 11:46:56] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 11:55:53] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:40:20] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:40:20] "GET /post/generate_id?object_name=a15b3cf0-7cc9-46d0-ac3b-8c672288d90f HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:40:20] "OPTIONS /post HTTP/1.1" 200 -
+INFO:posts_dao:successfully uploaded 1 record.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:40:21] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:42:46] "GET / HTTP/1.1" 200 -
+WARNING:posts_dao:record with post id s3Url does not exist.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:43:02] "GET /post/s3Url HTTP/1.1" 200 -
+WARNING:posts_dao:record with post id s3Url does not exist.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:43:28] "GET /post/s3Url?object_name=1 HTTP/1.1" 200 -
+WARNING:posts_dao:record with post id s3Url does not exist.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:43:29] "GET /post/s3Url?object_name=1 HTTP/1.1" 200 -
+WARNING:posts_dao:record with post id s3Url does not exist.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:43:38] "GET /post/s3Url?object_name=1 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+WARNING:posts_dao:record with post id s3Url does not exist.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:44:01] "GET /post/s3Url?object_name=1 HTTP/1.1" 200 -
+WARNING:posts_dao:record with post id s3Url does not exist.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:44:02] "GET /post/s3Url?object_name=1 HTTP/1.1" 200 -
+WARNING:posts_dao:record with post id s3Url does not exist.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:44:03] "GET /post/s3Url?object_name=1 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 355-778-665
+WARNING:posts_dao:record with post id s3Url does not exist.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:45:19] "GET /post/s3Url?object_name=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:45:26] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 355-778-665
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:46:25] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:46:25] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:46:26] "GET /post/generate_id HTTP/1.1" 200 -
+WARNING:posts_dao:record with post id hl3518 does not exist.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:46:52] "GET /post/hl3518 HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved record with post id a15b3cf0-7cc9-46d0-ac3b-8c672288d90f.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:48:05] "GET /post/a15b3cf0-7cc9-46d0-ac3b-8c672288d90f HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:49:36] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:49:36] "GET /post/generate_id?object_name=d0b06e50-6afe-4314-bacc-c8a15c2ebea7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:49:36] "OPTIONS /post HTTP/1.1" 200 -
+INFO:posts_dao:successfully uploaded 1 record.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:49:36] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:50:50] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:50:50] "GET /post/s3url?object_name=8a3cb475-eb09-44c5-afbe-e7984a1ca82c HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:50:50] "OPTIONS /post HTTP/1.1" 200 -
+INFO:posts_dao:successfully uploaded 1 record.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:50:50] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:53:30] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:53:30] "GET /post/s3url?object_name=822c7c64-3b5b-4bf6-96b7-f218be7b7f41 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:53:30] "OPTIONS /post HTTP/1.1" 200 -
+INFO:posts_dao:successfully uploaded 1 record.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:53:30] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:55:55] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:55:55] "GET /post/s3url?object_name=90c18066-0dbe-468e-9925-a30ecf7da316 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:55:55] "OPTIONS /post HTTP/1.1" 200 -
+INFO:posts_dao:successfully uploaded 1 record.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 12:55:55] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 13:01:10] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 13:01:10] "GET /post/s3url?object_name=90be0999-5a29-4548-8fb6-803818050e32 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 13:01:11] "OPTIONS /post HTTP/1.1" 200 -
+INFO:posts_dao:successfully uploaded 1 record.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 13:01:11] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 355-778-665
+INFO:werkzeug: * Detected change in '/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/posts_dao.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 355-778-665
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully retrieved record with post id test_post_id_1.
+INFO:__main__:successfully retrieved 1 records with user id test_user_id_1.
+ERROR:utils:An error occurred (AccessDenied) when calling the DeleteObject operation: Access Denied
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully retrieved record with post id test_post_id_1.
+INFO:__main__:successfully retrieved 1 records with user id test_user_id_1.
+WARNING:posts_dao:record with post id a15b3cf0-7cc9-46d0-ac3b-8c672288d90f does not exist.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 13:12:35] "[35m[1mDELETE /post/a15b3cf0-7cc9-46d0-ac3b-8c672288d90f HTTP/1.1[0m" 502 -
+ERROR:utils:An error occurred (AccessDenied) when calling the DeleteObject operation: Access Denied
+INFO:posts_dao:successfully deleted record with post id 90c18066-0dbe-468e-9925-a30ecf7da316.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 13:14:52] "DELETE /post/90c18066-0dbe-468e-9925-a30ecf7da316 HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 355-778-665
+WARNING:posts_dao:record with post id 90c18066-0dbe-468e-9925-a30ecf7da316 does not exist.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 13:15:32] "[35m[1mDELETE /post/90c18066-0dbe-468e-9925-a30ecf7da316 HTTP/1.1[0m" 502 -
+INFO:werkzeug: * Detected change in '/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 355-778-665
+ERROR:__main__:An error occurred (AccessDenied) when calling the DeleteObject operation: Access Denied
+INFO:werkzeug: * Detected change in '/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 355-778-665
+ERROR:__main__:An error occurred (AccessDenied) when calling the DeleteObject operation: Access Denied
+ERROR:__main__:An error occurred (AccessDenied) when calling the DeleteObject operation: Access Denied
+INFO:werkzeug: * Detected change in '/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 355-778-665
+INFO:werkzeug: * Detected change in '/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 355-778-665
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 355-778-665
+WARNING:posts_dao:record with post id 90c18066-0dbe-468e-9925-a30ecf7da316 does not exist.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 13:21:06] "[35m[1mDELETE /post/90c18066-0dbe-468e-9925-a30ecf7da316 HTTP/1.1[0m" 502 -
+WARNING:posts_dao:record with post id 90c18066-0dbe-468e-9925-a30ecf7da316 does not exist.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 13:21:23] "[35m[1mDELETE /post/90c18066-0dbe-468e-9925-a30ecf7da316 HTTP/1.1[0m" 502 -
+INFO:posts_dao:successfully deleted record with post id 8a3cb475-eb09-44c5-afbe-e7984a1ca82c.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 13:21:40] "DELETE /post/8a3cb475-eb09-44c5-afbe-e7984a1ca82c HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 355-778-665
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:16:27] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:16:27] "GET /post/s3url?object_name=123bdefe-b36d-4f9f-a7f5-c19b19331f34 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:16:27] "OPTIONS /post HTTP/1.1" 200 -
+INFO:posts_dao:successfully uploaded 1 record.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:16:28] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:16:36] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:16:36] "GET /post/s3url?object_name=01ecad66-6e7b-4084-832f-315268c2f1d0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:16:36] "OPTIONS /post HTTP/1.1" 200 -
+INFO:posts_dao:successfully uploaded 1 record.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:16:36] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:16:46] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:16:46] "GET /post/s3url?object_name=4902ec5c-8221-4fd6-8015-1c2c39845ebe HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:16:46] "OPTIONS /post HTTP/1.1" 200 -
+INFO:posts_dao:successfully uploaded 1 record.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:16:46] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:20:33] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:20:33] "GET /post/s3url?object_name=c4dad8c7-da70-40d1-b687-21ee15471210 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:20:34] "OPTIONS /post HTTP/1.1" 200 -
+INFO:posts_dao:successfully uploaded 1 record.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:20:34] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:22:09] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:22:09] "GET /post/s3url?object_name=4013e60a-ff4f-41ca-8761-06ddc8f4c050 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:22:10] "OPTIONS /post HTTP/1.1" 200 -
+INFO:posts_dao:successfully uploaded 1 record.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:22:10] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:23:11] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:23:11] "GET /post/s3url?object_name=c93302e5-828c-4741-abe5-be68b2cd96b9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:23:12] "OPTIONS /post HTTP/1.1" 200 -
+INFO:posts_dao:successfully uploaded 1 record.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:23:12] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:24:53] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:24:53] "GET /post/s3url?object_name=4c95cfd7-3a33-40cb-b051-3120568aeee7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:24:54] "OPTIONS /post HTTP/1.1" 200 -
+INFO:posts_dao:successfully uploaded 1 record.
+INFO:werkzeug:127.0.0.1 - - [15/Nov/2022 16:24:54] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 355-778-665
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 355-778-665
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 12:07:07] "GET /health HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 12:07:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 12:07:13] "[33mGET /generate_id HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 12:07:19] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 355-778-665
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 355-778-665
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 12:09:28] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 12:09:28] "GET /post/s3url?object_name=f6d53c30-492e-46fd-b6e2-634200bb300c HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 12:09:29] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 12:09:29] "GET /post/s3url?object_name=84616d1b-e5af-422f-97c9-2d047496807c HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 12:09:29] "OPTIONS /post HTTP/1.1" 200 -
+INFO:posts_dao:successfully uploaded 1 record.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 12:09:29] "POST /post HTTP/1.1" 200 -
+INFO:posts_dao:successfully uploaded 1 record.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 12:09:29] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 355-778-665
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 12:10:04] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 12:10:04] "GET /post/s3url?object_name=d72e7e52-51be-4fd4-900a-1262b974deb2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 12:10:05] "OPTIONS /post HTTP/1.1" 200 -
+INFO:posts_dao:successfully uploaded 1 record.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 12:10:05] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/application.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 355-778-665
+INFO:werkzeug: * Detected change in '/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/application.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:09:41] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:30:05] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:30:32] "GET / HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:30:44] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:31:16] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:32:47] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:34:15] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:35:06] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:35:09] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:35:41] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:37:20] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:37:57] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:38:17] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:39:22] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:40:22] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:40:56] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:42:05] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:42:40] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:43:23] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:44:03] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:44:03] "GET /post/s3url?object_name=ffd732f6-1056-4bcc-8b36-9ba93d9e1813 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:44:04] "OPTIONS /post HTTP/1.1" 200 -
+INFO:posts_dao:successfully uploaded 1 record.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:44:04] "POST /post HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 5 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 16:44:07] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 5 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 23:11:42] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 5 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 23:11:47] "GET /post/hl3518/user HTTP/1.1" 200 -
+ERROR:posts_dao:failed to retrieve post record.
+Traceback (most recent call last):
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 732, in _read_bytes
+    data = self._rfile.read(num_bytes)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/posts_dao.py", line 37, in get_post_by_user_id
+    results, rows_affected = self.db_client.exec_sql(sql, user_id)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/database.py", line 26, in exec_sql
+    rows_affected = cur.execute(sql_text, *args)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 738, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query ([Errno 60] Operation timed out)')
+INFO:werkzeug:127.0.0.1 - - [16/Nov/2022 23:12:52] "GET /post/hl3518/user HTTP/1.1" 200 -
+ERROR:posts_dao:failed to retrieve post record.
+Traceback (most recent call last):
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 732, in _read_bytes
+    data = self._rfile.read(num_bytes)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/posts_dao.py", line 37, in get_post_by_user_id
+    results, rows_affected = self.db_client.exec_sql(sql, user_id)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/database.py", line 26, in exec_sql
+    rows_affected = cur.execute(sql_text, *args)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 738, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query ([Errno 60] Operation timed out)')
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:06:00] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 5 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:06:00] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 5 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:06:05] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 5 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:07:28] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:15:38] "GET /post/generate_id HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:15:38] "GET /post/s3url?object_name=1e9c59ca-e8d5-4e3d-a6d9-23ea42f9baa1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:15:38] "OPTIONS /post HTTP/1.1" 200 -
+INFO:posts_dao:successfully uploaded 1 record.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:15:38] "POST /post HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 6 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:15:40] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully deleted record with post id 1e9c59ca-e8d5-4e3d-a6d9-23ea42f9baa1.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:20:40] "DELETE /post/1e9c59ca-e8d5-4e3d-a6d9-23ea42f9baa1 HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 5 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:20:55] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully deleted record with post id 84616d1b-e5af-422f-97c9-2d047496807c.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:21:23] "DELETE /post/84616d1b-e5af-422f-97c9-2d047496807c HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:21:51] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:22:39] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:22:43] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:22:46] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:25:22] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:26:07] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:27:52] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:30:18] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:48:54] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 11:52:37] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 12:00:56] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 12:19:41] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 12:22:06] "GET /post/hl3518/user HTTP/1.1" 200 -
+ERROR:posts_dao:failed to retrieve post record.
+Traceback (most recent call last):
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 732, in _read_bytes
+    data = self._rfile.read(num_bytes)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+TimeoutError: [Errno 60] Operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/posts_dao.py", line 37, in get_post_by_user_id
+    results, rows_affected = self.db_client.exec_sql(sql, user_id)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/database.py", line 26, in exec_sql
+    rows_affected = cur.execute(sql_text, *args)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 692, in _read_packet
+    packet_header = self._read_bytes(4)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 738, in _read_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2013, 'Lost connection to MySQL server during query ([Errno 60] Operation timed out)')
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 14:22:29] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 14:22:29] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 14:22:29] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 14:22:36] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 14:26:06] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 4 records with user id hl3518.
+INFO:werkzeug:127.0.0.1 - - [17/Nov/2022 14:26:09] "GET /post/hl3518/user HTTP/1.1" 200 -
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+ERROR:__main__:failed to retrieve post record.
+Traceback (most recent call last):
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/posts_dao.py", line 56, in get_post_by_user_id_within_window
+    results, rows_affected = self.db_client.exec_sql(sql,
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/database.py", line 26, in exec_sql
+    rows_affected = cur.execute(sql_text, *args)
+TypeError: execute() takes from 2 to 3 positional arguments but 4 were given
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+ERROR:__main__:failed to retrieve post record.
+Traceback (most recent call last):
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/posts_dao.py", line 56, in get_post_by_user_id_within_window
+    results, rows_affected = self.db_client.exec_sql(sql,
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/database.py", line 26, in exec_sql
+    rows_affected = cur.execute(sql_text, *args)
+TypeError: execute() takes from 2 to 3 positional arguments but 4 were given
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+ERROR:__main__:failed to retrieve post record.
+Traceback (most recent call last):
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/posts_dao.py", line 56, in get_post_by_user_id_within_window
+    results, rows_affected = self.db_client.exec_sql(sql,
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/database.py", line 26, in exec_sql
+    rows_affected = cur.execute(sql_text, *args)
+TypeError: execute() takes from 2 to 3 positional arguments but 4 were given
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+ERROR:__main__:failed to retrieve post record.
+Traceback (most recent call last):
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/posts_dao.py", line 57, in get_post_by_user_id_within_window
+    results, rows_affected = self.db_client.exec_sql(sql,
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/database.py", line 26, in exec_sql
+    rows_affected = cur.execute(sql_text, *args)
+TypeError: execute() takes from 2 to 3 positional arguments but 4 were given
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+ERROR:__main__:failed to retrieve post record.
+Traceback (most recent call last):
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/posts_dao.py", line 57, in get_post_by_user_id_within_window
+    results, rows_affected = self.db_client.exec_sql(sql,
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/database.py", line 26, in exec_sql
+    rows_affected = cur.execute(sql_text, *args)
+TypeError: execute() takes from 2 to 3 positional arguments but 4 were given
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+ERROR:__main__:failed to retrieve post record.
+Traceback (most recent call last):
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/posts_dao.py", line 57, in get_post_by_user_id_within_window
+    results, rows_affected = self.db_client.exec_sql(sql,
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/database.py", line 26, in exec_sql
+    rows_affected = cur.execute(sql_text, *args)
+TypeError: execute() takes from 2 to 3 positional arguments but 4 were given
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+ERROR:__main__:failed to retrieve post record.
+Traceback (most recent call last):
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/posts_dao.py", line 57, in get_post_by_user_id_within_window
+    results, rows_affected = self.db_client.exec_sql(sql,
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/database.py", line 26, in exec_sql
+    rows_affected = cur.execute(sql_text, *args)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '05:32:04order by time_stamp desc' at line 1")
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+ERROR:__main__:failed to retrieve post record.
+Traceback (most recent call last):
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/posts_dao.py", line 57, in get_post_by_user_id_within_window
+    results, rows_affected = self.db_client.exec_sql(sql,
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/src/database.py", line 26, in exec_sql
+    rows_affected = cur.execute(sql_text, *args)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/oliverliu/Projects/SocialMediaWebApp-Post-MicroService/venv/lib/python/lib/python3.8/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '05:32:23 order by time_stamp desc' at line 1")
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+INFO:__main__:successfully retrieved 7 records with user id hl3518.
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+INFO:__main__:successfully retrieved 1 records with user id hl3518.
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+INFO:__main__:successfully retrieved 2 records with user id hl3518.
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+INFO:__main__:successfully retrieved 2 records with user id hl3518.
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+INFO:__main__:successfully retrieved 2 records with user id hl3518.
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+INFO:__main__:successfully retrieved 2 records with user id hl3518.
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+WARNING:__main__:failed to retrieve records for user id hl3518.
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+WARNING:__main__:failed to retrieve records for user id hl3518.
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+WARNING:__main__:failed to retrieve records for user id hl3518.
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+WARNING:__main__:failed to retrieve records for user id hl3518.
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+WARNING:__main__:failed to retrieve records for user id hl3518.
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+WARNING:__main__:failed to retrieve records for user id hl3518.
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+WARNING:__main__:failed to retrieve records for user id hl3518.
+INFO:__main__:successfully uploaded 1 record.
+INFO:__main__:successfully deleted record with post id test_post_id_1.
+WARNING:__main__:record with post id test_post_id_1 does not exist.
+INFO:__main__:successfully retrieved 2 records with user id hl3518.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2022 11:04:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2022 11:04:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2022 11:05:22] "GET / HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 1 records with user id hl3518.
+WARNING:posts_dao:failed to retrieve records for user id .
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2022 11:05:40] "GET /post/users?user_list=hl3518, HTTP/1.1" 200 -
+INFO:posts_dao:successfully retrieved 9 records with user id hl3518.
+WARNING:posts_dao:failed to retrieve records for user id .
+INFO:werkzeug:127.0.0.1 - - [30/Nov/2022 11:06:02] "GET /post/users?user_list=hl3518,&window=1000 HTTP/1.1" 200 -
